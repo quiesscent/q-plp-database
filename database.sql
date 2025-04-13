@@ -63,7 +63,6 @@ CREATE TABLE author (
 CREATE TABLE book (
     book_id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(200) NOT NULL,
-    isbn VARCHAR(20) UNIQUE,
     publication_year INT,
     language_id INT REFERENCES book_language(language_id),
     publisher_id INT REFERENCES publisher(publisher_id),

@@ -63,7 +63,7 @@ The database should allow for efficient data storage and quick, insightful queri
 
 ## 📝 UML DIAGRAM
 
-![Uml Digaram](./uml.png)
+![Uml Digaram](./images/schema.png)
 ---
 
 ## 📌 Notes
